@@ -1,4 +1,4 @@
-;#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿;#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetTitleMatchMode 2
@@ -50,7 +50,7 @@ ActivateAndOpen(title,program,name,passcode)
 ;[快捷方式]
 #1::ActivateAndOpen("Total Commander 8.01 - NOT REGISTERED","C:\totalcmd\TOTALCMD.EXE","","")
 #2::ActivateAndOpen("Firefox","C:\Program Files (x86)\Mozilla Firefox\firefox.exe","","")
-#3::ActivateAndOpen("EIS Master Series","C:\新eis\EIS\eis.exe","ZHANGX", "seasong312")
+#3::ActivateAndOpen("EIS Master Series","C:\eis\EIS\eis.exe","ZHANGX", "seasong312")
 ;#0::ActivateAndOpen("Outlook","C:\Program Files (x86)\Microsoft Office\Office12\OUTLOOK.EXE","","")
 #0::ActivateAndOpen("Notes","C:\Program Files (x86)\IBM\Lotus\Notes\notes.exe","","")
 #q::ActivateAndOpen("PyCharm","C:\Program Files (x86)\JetBrains\PyCharm 5.0\bin\pycharm.exe","","")

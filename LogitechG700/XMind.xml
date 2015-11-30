@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile gkeysdk="0" guid="{CA274BB2-494A-440F-A24B-91A97F602363}" lock="0" name="XMind">
+    <description></description>
+    <target path="C:\PROGRAM FILES (X86)\XMIND\XMIND.EXE"/>
+    <signature key="" value="" executable="" name=""/>
+    <macros>
+      <macro guid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}" hidden="false" name="左键单击">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}" hidden="false" name="右键单击">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}" hidden="false" name="单击中键">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" hidden="false" name="返回">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="back"/>
+        </mousefunction>
+      </macro>
+      <macro guid="{3A368296-9600-484C-85A2-E85DFFD58E83}" hidden="false" name="Alt + F4">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="F4"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </macro>
+      <macro guid="{06856C2F-00DF-4376-9B92-74F24DC40EC4}" hidden="false" name="Ctril + W">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LCTRL"/>
+          <key direction="down" value="W"/>
+          <key direction="up" value="W"/>
+          <key direction="up" value="LCTRL"/>
+        </multikey>
+      </macro>
+      <macro guid="{46139971-E899-4D89-ABAD-7A731434F6C7}" hidden="false" name="Ctrl + V">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="V"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro guid="{5A9DD02B-5903-42C8-A1D2-D675C5A834BD}" hidden="false" name="Ctrl + C">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="C"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro guid="{8DFB5AA6-3D77-4EC4-A86E-E553C6DCAF9A}" hidden="false" name="Left Windows + D">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="D"/>
+          <modifier value="LGUI"/>
+        </keystroke>
+      </macro>
+      <macro guid="{7A19AB29-AC41-4B3E-B413-CC23A5DCD91F}" hidden="false" name="Notes">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LGUI"/>
+          <key direction="down" value="0"/>
+          <key direction="up" value="0"/>
+          <key direction="up" value="LGUI"/>
+        </multikey>
+      </macro>
+      <macro guid="{72BECD17-1E48-4300-BA82-D2F5C56D2DD6}" hidden="false" name="Ctrl + Shift + Tab">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="TAB"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LSHIFT"/>
+        </keystroke>
+      </macro>
+      <macro guid="{229D17DA-9BB1-45C1-BAC6-94459E6D2B4C}" hidden="false" name="Ctrl + Tab">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="TAB"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </macro>
+      <macro guid="{8B13562D-60F2-460F-9588-8C84168C81BC}" hidden="false" name="改备注格式">
+        <multikey xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MultiKey">
+          <key direction="down" value="LCTRL"/>
+          <delay milliseconds="50"/>
+          <key direction="down" value="A"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="A"/>
+          <delay milliseconds="50"/>
+          <key direction="down" value="T"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="T"/>
+          <delay milliseconds="50"/>
+          <key direction="up" value="LCTRL"/>
+        </multikey>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.Mouse.G700">
+      <assignment original="false" backup="false" contextid="Button1" shiftstate="1" macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}"/>
+      <assignment original="false" backup="false" contextid="Button2" shiftstate="1" macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}"/>
+      <assignment original="false" backup="false" contextid="Button3" shiftstate="1" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}"/>
+      <assignment original="false" backup="false" contextid="Button4" shiftstate="1" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}"/>
+      <assignment original="false" backup="false" contextid="Button5" shiftstate="1" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}"/>
+      <assignment original="false" backup="false" contextid="Button6" shiftstate="1" macroguid="{3A368296-9600-484C-85A2-E85DFFD58E83}"/>
+      <assignment original="false" backup="false" contextid="Button7" shiftstate="1" macroguid="{06856C2F-00DF-4376-9B92-74F24DC40EC4}"/>
+      <assignment original="false" backup="false" contextid="Button8" shiftstate="1" macroguid="{46139971-E899-4D89-ABAD-7A731434F6C7}"/>
+      <assignment original="false" backup="false" contextid="Button9" shiftstate="1" macroguid="{5A9DD02B-5903-42C8-A1D2-D675C5A834BD}"/>
+      <assignment original="false" backup="false" contextid="Button10" shiftstate="1" macroguid="{8DFB5AA6-3D77-4EC4-A86E-E553C6DCAF9A}"/>
+      <assignment original="false" backup="false" contextid="Button11" shiftstate="1" macroguid="{7A19AB29-AC41-4B3E-B413-CC23A5DCD91F}"/>
+      <assignment original="false" backup="false" contextid="Button12" shiftstate="1" macroguid="{72BECD17-1E48-4300-BA82-D2F5C56D2DD6}"/>
+      <assignment original="false" backup="false" contextid="Button13" shiftstate="1" macroguid="{229D17DA-9BB1-45C1-BAC6-94459E6D2B4C}"/>
+    </assignments>
+    <pointers>
+      <pointer devicemodel="Logitech.Gaming.Mouse.G700">
+        <mode shiftstate="1">
+          <reportrate rate="500"/>
+          <powermode value="2"/>
+          <dpitable defaultindex="1" shiftindex="1" syncxy="1">
+            <dpi x="2000" y="2000" enabled="1"/>
+            <dpi x="3000" y="3000" enabled="1"/>
+          </dpitable>
+          <movement speed="-1" acceleration="1"/>
+        </mode>
+      </pointer>
+    </pointers>
+    <backlight devicemodel="Logitech.Gaming.Mouse.G700">
+      <mode shiftstate="1" color="#000000"/>
+      <mode shiftstate="2" color="#000000"/>
+      <mode shiftstate="3" color="#000000"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>
