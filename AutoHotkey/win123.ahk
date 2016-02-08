@@ -48,17 +48,11 @@ ActivateAndOpen(title,program,name,passcode)
 
 
 ;[快捷方式]
-#1::ActivateAndOpen("Total Commander 8.01 - NOT REGISTERED","C:\totalcmd\TOTALCMD.EXE","","")
 #2::ActivateAndOpen("Firefox","C:\Program Files (x86)\Mozilla Firefox\firefox.exe","","")
-#3::ActivateAndOpen("EIS Master Series","C:\eis\EIS\eis.exe","ZHANGX", "seasong312")
-;#0::ActivateAndOpen("Outlook","C:\Program Files (x86)\Microsoft Office\Office12\OUTLOOK.EXE","","")
-#0::ActivateAndOpen("Notes","C:\Program Files (x86)\IBM\Lotus\Notes\notes.exe","","")
 #q::ActivateAndOpen("PyCharm","C:\Program Files (x86)\JetBrains\PyCharm 5.0\bin\pycharm.exe","","")
-#f::ActivateAndOpen("Everything","C:\Program Files (x86)\Everything\Everything.exe","","")
-#z::ActivateAndOpen("Zotero","C:\Program Files (x86)\Zotero Standalone\zotero.exe","","")
+#f::ActivateAndOpen("Everything","C:\Program Files\Everything\Everything.exe","","")
 #x::ActivateAndOpen("XMind","C:\Program Files (x86)\XMind\XMind.exe","","")
-#c::ActivateAndOpen("Source Insight","E:\Software\Source Insight 3\Insight3.exe","","")
-#s::ActivateAndOpen("OneNote","C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE","","")
+#s::ActivateAndOpen("OneNote","C:\Program Files (x86)\Microsoft Office\root\Office16\ONENOTE.EXE","","")
 
 #t::
 	Send, {CTRLDOWN}c{CTRLUP}
