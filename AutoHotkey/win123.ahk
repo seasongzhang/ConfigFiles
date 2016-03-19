@@ -57,7 +57,7 @@ ActivateAndOpen(title,program,name,passcode)
 #f::ActivateAndOpen("Everything","C:\Program Files (x86)\Everything\Everything.exe","","")
 #z::ActivateAndOpen("Zotero","C:\Program Files (x86)\Zotero Standalone\zotero.exe","","")
 #x::ActivateAndOpen("XMind","C:\Program Files (x86)\XMind\XMind.exe","","")
-#c::ActivateAndOpen("Source Insight","E:\Software\Source Insight 3\Insight3.exe","","")
+#c::ActivateAndOpen("Chrome","C:\Program Files (x86)\Google\Chrome\Application\chrome.exe","","")
 #s::ActivateAndOpen("OneNote","C:\Program Files (x86)\Microsoft Office\Office15\ONENOTE.EXE","","")
 
 #t::
