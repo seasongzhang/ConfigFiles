@@ -96,14 +96,7 @@ SendUText(targetTxt)
 	Sleep 500
 	Send, {Enter}
 return
-;注销上网认证
-^`::
-	Run http://webauth.smec-cn.com/
-	Sleep 1000
-	Send, {F}
-	Sleep 200
-	Send, {D}
-return
+
 
 ^!p::Pause ;
 
