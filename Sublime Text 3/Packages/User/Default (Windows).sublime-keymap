@@ -1,0 +1,8 @@
+[
+	{"keys":["shift","shift"],"command":"build"},
+	{"keys":["shift+f10"],"command":"build"},
+	{"keys":["ctrl+alt+l"],"command":"anaconda_auto_format"},
+	{"keys":["ctrl+b"],"command":"anaconda_goto_definition"},
+
+
+]

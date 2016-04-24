@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Autocomplete Javascript with Method Signature",
+		"Djaneiro",
+		"GitGutter",
+		"Markdown Preview",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"Table Editor"
+	]
+}
